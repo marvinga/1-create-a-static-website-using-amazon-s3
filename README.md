@@ -1,7 +1,7 @@
 # 1-create-a-static-website-using-amazon-s3
 
+- Very simple project just to get you started with terraform 
 - This setup will create a fully functional S3-hosted static website with public access.
-- Very simple project just to get you started. 
 
 - Prerequisites
 - Before deploying the static website, ensure you have the following:
