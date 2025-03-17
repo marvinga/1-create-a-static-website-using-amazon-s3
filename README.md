@@ -27,9 +27,11 @@ terraform-static-site/
 │── README.md            # Project description and setup instructions
 ```
 
-```
+
 - Getting started
+
 Clone the repository locally in your system:
+```
 git clone https://github.com/marvinga/1-create-a-static-website-using-amazon-s3
 ```
 
