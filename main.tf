@@ -5,7 +5,7 @@ provider "aws" {
 
 # Create an S3 bucket for the static website
 resource "aws_s3_bucket" "static_site" {
-    bucket = "bucket-for-my-static-website" # Replace with globally unique name
+    bucket = "bucket2-for-my-static-website-2" # Replace with globally unique name
 }
 
 # Enable static website hosting for the S3 bucket
@@ -32,7 +32,7 @@ resource "aws_s3_bucket_policy" "allow_public_access" {
   bucket = aws_s3_bucket.static_site.id
   policy = <<POLICY
 {
-    "Version": "2012-10-17"
+    "Version": "2012-10-17",
     "Statement": [
         {
             "Effect": "Allow",
@@ -49,7 +49,7 @@ POLICY
 resource "aws_s3_object" "index_html" {
     bucket = aws_s3_bucket.static_site.id
     key = "index.html"              # File name in S3
-    source = "index.html"           # Local file to upload
+    source = "text/index.html"           # Local file to upload
     content_type = "text/html"
     acl = "public-read"             # Allow public access
 
