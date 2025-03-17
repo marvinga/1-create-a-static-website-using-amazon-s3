@@ -55,10 +55,6 @@ resource "aws_s3_object" "index_html" {
 
 }
 
-# Output the website URL after deployment
-output "website_url" {
-    value = aws_s3_bucket_website_configuration.website_config.website_endpoint
-}
 
 
 
