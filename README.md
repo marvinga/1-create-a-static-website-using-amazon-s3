@@ -46,6 +46,9 @@ terraform output website_url
 terraform destroy
 ```
 
+![alt text](image-1.png)
+
+
 - AWS Reference: 
 1. Create a Static Website Using Amazon S3 
 https://lnkd.in/ggz9MBGD 

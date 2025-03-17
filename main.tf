@@ -51,7 +51,7 @@ resource "aws_s3_object" "index_html" {
     key = "index.html"              # File name in S3
     source = "text/index.html"           # Local file to upload
     content_type = "text/html"
-    acl = "public-read"             # Allow public access
+    #acl = "public-read"             # Allow public access
 
 }
 
