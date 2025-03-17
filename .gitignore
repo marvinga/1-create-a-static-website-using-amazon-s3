@@ -1,0 +1,19 @@
+aws_details.md
+website
+Ex_Files__Kubernetes_Your_First_Project
+*.zip
+*.pdf
+
+# Ignore Terraform directories and files
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
+*.tfvars
+*.tfvars.json
+
+# Ignore Terraform execution and state-related files
+.fstated
+exec
+terraform.tfstate.*
