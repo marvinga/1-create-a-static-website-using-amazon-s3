@@ -5,12 +5,12 @@
 
 - Prerequisites
 - Before deploying the static website, ensure you have the following:
+    - ✅ Terraform 
     - ✅ AWS Account 
     - ✅ IAM User with Admin Privileges 
     - ✅ AWS Credentials
     - ✅ AWS CLI 
-    - ✅ Terraform 
-
+    
 - Steps:
     - Create an S3 bucket for hosting.
     - Configure it for static website hosting.
@@ -46,6 +46,8 @@ terraform output website_url
 terraform destroy
 ```
 
-
+- AWS Reference: 
+1. Create a Static Website Using Amazon S3 
+https://lnkd.in/ggz9MBGD 
 
 
