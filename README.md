@@ -23,7 +23,7 @@ terraform-static-site/
 │── main.tf              # Main Terraform configuration file
 │── variables.tf         # Define variables (optional)
 │── outputs.tf           # Define outputs like website URL
-│── index.html           # Your website's main HTML file
+│── text/index.html      # Your website's main HTML file
 │── terraform.tfvars     # Variable values (optional)
 │── README.md            # Project description and setup instructions
 ```
