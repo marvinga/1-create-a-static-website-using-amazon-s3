@@ -17,6 +17,7 @@
     - Set up bucket policy to allow public read access.
     - Add an index.html file.
 
+- Folder structure
 ```
 terraform-static-site/
 │── main.tf              # Main Terraform configuration file
@@ -27,9 +28,7 @@ terraform-static-site/
 │── README.md            # Project description and setup instructions
 ```
 
-
 - Getting started
-
 Clone the repository locally in your system:
 ```
 git clone https://github.com/marvinga/1-create-a-static-website-using-amazon-s3
