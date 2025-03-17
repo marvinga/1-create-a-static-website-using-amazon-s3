@@ -1,10 +1,13 @@
 # 1-create-a-static-website-using-amazon-s3
+
+- This setup will create a fully functional S3-hosted static website with public access. Let me know if you need any modifications! 🚀
+
  
 - Steps:
     - Create an S3 bucket for hosting.
     - Configure it for static website hosting.
     - Set up bucket policy to allow public read access.
-    - (Optional) Add an index.html file.
+    - Add an index.html file.
 
 ```
 terraform-static-site/
@@ -15,5 +18,13 @@ terraform-static-site/
 │── terraform.tfvars     # Variable values (optional)
 │── README.md            # Project description and setup instructions
 ```
+
+```
+terraform init
+terraform apply -auto-approve
+terraform output website_url
+```
+
+
 
 
