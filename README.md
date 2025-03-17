@@ -4,13 +4,12 @@
 - Very simple project just to get you started. 
 
 - Prerequisites
-    - Before deploying the static website, ensure you have the following:
-
-- ✅ AWS Account 
-- ✅ IAM User with Admin Privileges 
-- ✅ AWS Credentials
-- ✅ AWS CLI 
-- ✅ Terraform 
+- Before deploying the static website, ensure you have the following:
+    - ✅ AWS Account 
+    - ✅ IAM User with Admin Privileges 
+    - ✅ AWS Credentials
+    - ✅ AWS CLI 
+    - ✅ Terraform 
 
 - Steps:
     - Create an S3 bucket for hosting.
@@ -29,8 +28,13 @@ terraform-static-site/
 ```
 
 ```
-Getting started
+- Getting started
+Clone the repository locally in your system:
 git clone https://github.com/marvinga/1-create-a-static-website-using-amazon-s3
+```
+
+- Deploy the code in your AWS account with Terraform
+```
 cd 1-create-a-static-website-using-amazon-s3
 
 terraform init
