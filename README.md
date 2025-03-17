@@ -6,7 +6,7 @@
     - Set up bucket policy to allow public read access.
     - (Optional) Add an index.html file.
 
-
+```
 terraform-static-site/
 │── main.tf              # Main Terraform configuration file
 │── variables.tf         # Define variables (optional)
@@ -14,5 +14,6 @@ terraform-static-site/
 │── index.html           # Your website's main HTML file
 │── terraform.tfvars     # Variable values (optional)
 │── README.md            # Project description and setup instructions
+```
 
 
